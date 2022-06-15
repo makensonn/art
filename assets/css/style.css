@@ -1,4 +1,33 @@
 /*--------------------------------------------------------------
+# Custom CSS
+--------------------------------------------------------------*/
+iframe{
+  width: 100%;
+  border: 2px solid gold;
+}
+
+img {
+
+border: 2px solid gold;
+
+}
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: rgb(229, 246, 252);
+}
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
@@ -1180,33 +1209,4 @@ section {
 
 #footer .credits {
   font-size: 13px;
-}
-
-/*--------------------------------------------------------------
-# Custom CSS
---------------------------------------------------------------*/
-iframe{
-  width: 100%;
-  border: 2px solid gold;
-}
-
-img {
-
-border: 2px solid gold;
-
-}
-
-table {
-font-family: arial, sans-serif;
-border-collapse: collapse;
-width: 100%;
-}
-
-td, th {
-text-align: left;
-padding: 8px;
-}
-
-tr:nth-child(even) {
-background-color: rgb(229, 246, 252);
 }
